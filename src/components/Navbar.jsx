@@ -60,10 +60,14 @@ const Navbar = () => {
               Pricing
             </Link>
           </div>
-
-          <Link href="#" className={styles.joinButton} role="button">
-            Get started now
-          </Link>
+          <div className="flex gap-4">
+            <Link to="/signin" className={styles.joinButton} role="button">
+              Sign In
+            </Link>
+            <Link to="/signup" className={styles.joinButton} role="button">
+              Sign Up
+            </Link>
+          </div>
         </nav>
 
         {/* xs to lg */}
