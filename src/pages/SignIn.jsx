@@ -48,8 +48,8 @@ const SignIn = () => {
         <div className="relative flex items-end px-4 pb-10 pt-60 sm:pb-16 md:justify-center lg:pb-24 bg-gray-50 sm:px-6 lg:px-8">
           <div className="absolute inset-0">
             <img
-              className="object-cover object-top w-full h-full"
-              src="/memeimg/girl-working.jpg"
+              className="object-cover w-full h-[100%]"
+              src="https://i.pinimg.com/564x/c9/98/49/c99849a4c62103fa26232bc33849a997.jpg"
               alt="Women Working"
               layout="fill"
               objectFit="cover"

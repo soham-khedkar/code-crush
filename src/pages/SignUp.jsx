@@ -63,8 +63,8 @@ const SignUp = () => {
         <div className="relative flex items-end px-4 pb-10 pt-60 sm:pb-16 md:justify-center lg:pb-24 bg-gray-50 sm:px-6 lg:px-8">
           <div className="absolute inset-0">
             <img
-              className="object-cover"
-              src="https://images.pexels.com/photos/5474298/pexels-photo-5474298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              className="object-cover w-full h-[100%]"
+              src="https://i.pinimg.com/564x/e5/6f/8e/e56f8e8e7cc62aa094b33651f9f4d63d.jpg"
               alt="Girl working on laptop"
             />
           </div>
